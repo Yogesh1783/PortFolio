@@ -361,9 +361,7 @@ section {
     padding-left: 20px;
 }
 
-/* Media Queries for Responsiveness */
 
-/* For large laptops (992px and above) */
 @media (max-width: 1200px) {
     .container {
         width: 95%;
