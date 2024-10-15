@@ -1,181 +1,457 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js ss-preload" lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Yogesh Pawar</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=link" />
+    <style>
+
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+        </style>
+
 </head>
-<body>
-    <nav class="navContainer">
-        <div class="container">
-            <div class="logo">
-                <h1>Web Dev</h1>
-            </div>
-            <div class="items">
-                <ul>
-                    <li><a href="#sec1">Home</a></li>
-                    <li><a href="#sec2">Projects</a></li>
-                    <li><a href="#sec3">Skills</a></li>
-                    <li><a href="#sec5">Contact</a></li>
-                    <li><a href="#sec4">About</a></li>
-                </ul>
-            </div>
+
+<body id="top">
+
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
         </div>
-    </nav>
-    <section class="sec1" id="sec1">
-        <div class="container1">
-        <h6>//HI, I'M YOGESH PAWAR, A... </h6>
-        <h3> {... <span class="auto-typed"></span>...}</h3>
-            <p>I am a skilled web developer and designer with expertise in the MERN stack and frontend design. I specialize in building interactive, responsive websites that blend modern aesthetics with robust functionality. My passion lies in crafting seamless user experiences through innovative design and efficient coding practices</p>
     </div>
-    </section>
-    <section class="sec2" id="sec2">
-        <div class="container2">
-            <div class="head">
-                
-                <h1>Projects</h1></div>
-            <div class="parentCard">
-            <div class="card">
-                
-                <h1><u>Construction Supply Hub</u></h1>
-                <ul>
-                    <li>Designed and developed "Construction Supply Hub," a MERN-based multivendor platform where shopkeepers can 
-                        list and sell construction materials. Integrated a location-based search feature using pin codes, allowing users to 
-                        discover and purchase supplies specific to their area. Focused on creating a responsive, secure, and user-friendly 
-                        experience for both vendors and buyers</li>
-                    <li>Developed an intuitive and dynamic front-end using React, enhancing user interaction with features like search 
-                        filters, product comparison, and real-time notifications. Ensured cross-device compatibility and optimized the 
-                        application's performance to deliver a smooth user experience.
-                    </li>
-                </ul>
-            </div>
-            <div class="card">
-                <h1><u>IPL Data Analysis</u></h1>
-                <ul>
-                    <li>Designed and implemented IPL Data Analysis tool utilizing Python AI-ML.</li>
-                    <li>Enables team performance analysisthrough graphical representation.</li>
-                    <li> Seamlessly processes CSV files, converting data intoinsightful graphs.</li>
-                </ul>
-            </div>
-           
-            <div class="card">
-                <h1><u>Advocate Management System</u></h1>
-                <ul>
-                    <li> Architected and implemented a bespoke PHP CodeIgniter system to streaming advocate appointment 
-                        scheduling; decreased booking errors by 50% and enhanced appointment efficiency by 30%.</li>
-                    <li>Engineered an Advocate Management System using PHP CodeIgniter, automating the appointment booking 
-                        process for advocates; reduced booking time by 40% and increased client satisfaction scores by 25%.
-                    </li>
-                </ul>
-            </div>
+
+
+    <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-        </div>
-    </section>
+
+
+        <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Yogesh.</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.html" class="home-link">Yogesh.</a></li>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li><a href="#works" class="smoothscroll">Works</a></li>
+                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+
+        <!-- ## main content
+        ==================================================- -->
+        <main class="s-content">
+
+
+            <!-- ### intro
+            ================================================== -->
+            <section id="intro" class="s-intro target-section">
+
+                <div class="row intro-content wide">
+
+                    <div class="column">
+                        <div class="text-pretitle with-line">
+                            Hello World
+                        </div>
+
+                        <h4 class="text-huge-title">
+                           
+
+
+
+                            I am Yogesh,<br> 
+                            a Web Developer <br>
+                             crafting responsive,<br> 
+                            dynamic web applications
+                        </h4>
+                    </div>
+
+                    <ul class="intro-social">
+                        <li><a href="#0">LinkedIN</a></li>
+                        <li><a href="#0">Twitter</a></li>
+                        <li><a href="#0">Facebook</a></li>
+                        <li><a href="#0">Instagram</a></li>
+                    </ul>
+
+                </div> <!-- end intro content -->
+
+                <a href="#about" class="intro-scrolldown smoothscroll">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+                </a>
+
+            </section> <!-- end s-intro -->
+
+
+            <!-- ### about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+
+                <div class="row about-info wide" data-animate-block>
+
+                    <div style="display: flex; justify-content: center; align-items: center;" class="column lg-6 md-12 about-info__pic-block">
+                        <img style="border-radius: 50%; height: 300px; width: 300px; " src="images/Profile.jpg" 
+                            srcset= "images/Profile.jpg 1x, images/about-photo@2x.jpg 2x" alt="" class="about-info__pic" data-animate-el>
+                    </div>
+
+                    <div class="column lg-6 md-12">
+                        <div class="about-info__text" >
+
+                            <h2 class="text-pretitle with-line" data-animate-el>
+                                About
+                            </h2>
+
+
+
+
+                            <p class="attention-getter" data-animate-el>
+                                I am a skilled web developer and designer with expertise in the MERN stack and frontend design. I specialize in building interactive, responsive websites that blend modern aesthetics with robust functionality. My passion lies in crafting seamless user experiences through innovative design and efficient coding practices
+
+                            </p>
+                            <a href="#0" class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a>
+
+                        </div>
+                    </div>
+
+                </div> <!-- about-info -->
+
+
+                
+
+
+                <div class="row about-timelines" data-animate-block>
+
+                   
+
+                    <div class="column lg-6 tab-12">
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Education
+                        </h2>
+
+                        <div class="timeline" data-animate-el>
+
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Post Graduation</h3>
+                                    <h5 class="timeline__meta">Master in Computer Application</h5>
+                                    <p class="timeline__timeframe">Dec 2024</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Community Institute of Management and Studies </p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Bengaluru </p>
+                                </div>
+                            </div>
     
-    <section class="sec3" id="sec3">
-        <div class="container3">
-            <div class="head">
-                <h1>Skills</h1>
-            </div>
-            <div class="skillCard">
-                <label style="background-color: green; width: 750px; height: 60px;">Javascript</label>
-            </div>
-            <div class="skillCard">
-                <label style="background-color: orange; width: 750px; height: 60px;">Java</label>
-            </div>
-            <div class="skillCard">
-                <label style="background-color: yellow; width: 750px; height: 60px;">C</label>
-            </div>
-            <div class="skillCard">
-                <label style="background-color: yellow; width: 750px; height: 60px;">C#</label>
-            </div>
-            <div class="skillCard">
-                <label style="background-color: skyblue; width: 750px; height: 60px;">Python</label>
-            </div>
-            
-        </div>
-    </section>
-    <section class="sec4" id="sec4">
-        <div class="container4">
-            <div class="head1">
-                
-                <h1>About</h1></div>
-            <div class="parentCard1">
-            <div class="card1">
-                
-                <h1><u>Post-Graduation</u></h1>
-                <ul>
-                    <li>Mater Of Computer Application</li>
-                    <li>Community Institute of Management and Studies</li>
-                    <li>7.7 CGPA</li>
-                    <li>Bangalore</li>
-                </ul>
-            </div>
-            <div class="card1">
-                <h1><u>Under-Graduation</u></h1>
-                <ul>
-                    <li>Bachelor Of Computer Application</li>
-                    <li>Chetana BCA and BBA College</li>
-                    <li>83%</li>
-                    <li>Vijayapura</li>
-                </ul>
-            </div>
-            
-            
-        </div>
-        </div>
-    </section>
-    <section class="sec5" id="sec5">
-        <div class="container5">
-            <div class="head">
-                <h1>Contact us</h1>
-            </div>
-            
-            
-           <div class="bodyCard">
-                <h3>Get Touch in</h3>
-                <div class="detailCard">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"  class="bi bi-instagram" viewBox="0 0 16 16">
-                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-                      </svg>
-                      <h4>yogeshpawar5965</h4>
-                </div>
-                <div class="detailCard">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-                      </svg>
-                      <h4>yogeshpawar</h4>
+                            <div class="timeline__block">
+                                <div class="timeline__bullet"></div>
+                                <div class="timeline__header">
+                                    <h4 class="timeline__title">Under Graduation</h4>
+                                    <h5 class="timeline__meta">Bachelors in Computer Application</h5>
+                                    <p class="timeline__timeframe">Oct 2022</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Chetana BCA and BBA College</p>
+                                </div>
+                                <div class="timeline__desc">
+                                    <p>Vijayapura </p>
+                                </div>
+                            </div>
+    
+                        </div> <!-- end timeline -->
+                        
+                    </div> <!-- end column -->
 
-                </div>
-                <div class="detailCard">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
-                        <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
-                        <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
-                      </svg>
-                      <h4>py636019@gmail.com</h4>
-                </div>
-                <div class="detailCard">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-                      </svg>
-                      <h4>Yogesh Pawar</h4>
-                </div>
-           </div>
-        </div>
-    </section>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('.auto-typed', {
-    strings: ['Programmer','Web Designer','FrontEnd Designer','Mern Stack Developer'],
-    typeSpeed: 150,
-    backSpeed:150,
-    loop:true
-  });
-    </script>
+                </div> <!-- end about-timelines -->
+
+            </section> <!-- end s-about -->
+
+
+            <!-- ### works
+            ================================================== -->
+            <section id="works" class="s-works target-section">
+
+
+                <div class="row works-portfolio">
+
+                    <div class="column lg-12" data-animate-block>
+
+                        <h2 class="text-pretitle" data-animate-el>
+                            Recent Works
+                        </h2>
+                        <p class="h1" data-animate-el>
+                            Here are some of my favorite projects I have done lately. Feel free to check them out.
+                        </p>
+    
+                        <ul class="folio-list row block-lg-one-half block-stack-on-1000">
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="https://github.com/Yogesh1783/Construction-Supply-Hub">
+                                    <div class="folio-list__item-pic">
+                                        <span style="font-size: 60px; text-align: center;"  class="material-symbols-outlined">
+                                            link
+                                            </span>
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                           MERN
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Construction-Supply-Hub
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="https://github.com/Yogesh1783/Weather-forecast">
+                                    <div class="folio-list__item-pic">
+                                        <span style="font-size: 60px; text-align: center;"  class="material-symbols-outlined">
+                                            link
+                                            </span>
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                           ReactJs
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Weather Forecast
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="https://github.com/Yogesh1783/Advocate-Appointment-Managing-System">
+                                    <div class="folio-list__item-pic">
+                                        <span style="font-size: 60px; text-align: center;"  class="material-symbols-outlined">
+                                            link
+                                            </span>
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            PHP
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Advocate Management System
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="https://github.com/Yogesh1783/LearnEnglishWithMovies">
+                                    <div class="folio-list__item-pic">
+                                        <span style="font-size: 60px; text-align: center;"  class="material-symbols-outlined">
+                                            link
+                                            </span>
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Javascript
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Learn English With Movies
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="https://github.com/Yogesh1783/IPL_DATA_ANALYSIS_FROM_CSVFILE">
+                                    <div class="folio-list__item-pic">
+                                        <span style="font-size: 60px; text-align: center;"  class="material-symbols-outlined">
+                                            link
+                                            </span>
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Python
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            IPL Data Analysis
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-06">
+                                    <div class="folio-list__item-pic">
+                                        <span style="font-size: 60px; text-align: center;"  class="material-symbols-outlined">
+                                            link
+                                            </span>
+                                    </div>
+                                    
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            ReactJs
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            ToDo List
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="#" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                        </ul> <!-- end folio-list -->
+
+                    </div> <!-- end column -->
+
+
+                    <!-- Modal Templates Popup
+                    -------------------------------------------- -->
+                  
+
+
+            
+
+
+            <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            Get In Touch
+                        </h2>
+
+                        <p class="h1">
+                            I love to hear from you.
+                            Whether you have a question or just 
+                            want to chat about Web design — shoot me a message.
+                        </p>
+                    </div>
+                </div> <!-- end contact-top -->
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <a href="mailto:py636019@gmail.com" class="mailtoui">py636019@gmail.com</a> <br>
+                            <a href="tel:+917795814930">+91-7795814930</a>
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Social</h3>
+                        <ul class="contact-social">
+                           
+                            <li><a href="#0">Twitter</a></li>
+                            <li><a href="#0">Instagram</a></li>
+                            <li><a href="#0">Github</a></li>
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12 contact-block">
+                        <a href="mailto:py636019@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                    </div>
+                </div> <!-- end contact-bottom -->
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+
+        <!-- ## footer
+        ================================================== -->
+        <footer class="s-footer">
+
+            <div class="row">
+                <div class="column ss-copyright">
+                    <span>© Copyright Yogesh 2024</span> 
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end -s-pagewrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
