@@ -3610,7 +3610,7 @@ img.u-pull-left {
 }
 
 .folio-list__item-link {
-    display             : block;
+    display             : inline;
     width               : 100%;
     padding-left        : calc(5.5 * var(--space));
     color               : white;
@@ -4021,7 +4021,9 @@ img.u-pull-left {
 
     .folio-list__item-text,
     .folio-list__proj-link {
-        display : none;
+        display : block;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .modal-popup__desc {
