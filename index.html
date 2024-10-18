@@ -34,6 +34,32 @@
           'GRAD' 0,
           'opsz' 24
         }
+        .folio-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.folio-list__item {
+    flex: 1 1 100%; /* Ensure it takes full width on smaller screens */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .folio-list__item {
+        flex: 1 1 45%; /* Adjust for tablets and larger screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    .folio-list__item {
+        flex: 1 1 30%; /* Adjust for desktops */
+    }
+}
+
         </style>
 
 </head>
